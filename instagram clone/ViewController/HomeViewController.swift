@@ -24,6 +24,7 @@ class HomeViewController: UIViewController {
         
         tableView.register(UINib(nibName: "HomeHeaderTVC", bundle: nil), forCellReuseIdentifier: "HomeHeaderTVC")
         tableView.register(UINib(nibName: "HomeFeedsTVC", bundle: nil), forCellReuseIdentifier: "HomeFeedsTVC")
+        tableView.register(UINib(nibName: "SearchTVC", bundle: nil), forCellReuseIdentifier: "SearchTVC")
     }
 }
     
@@ -34,7 +35,7 @@ extension HomeViewController: UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        60
+        100
     }
     
     

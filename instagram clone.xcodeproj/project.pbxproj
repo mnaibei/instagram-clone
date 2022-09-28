@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05B37D9728E346C00089594B /* SearchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B37D9528E346C00089594B /* SearchTVC.swift */; };
+		05B37D9828E346C00089594B /* SearchTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05B37D9628E346C00089594B /* SearchTVC.xib */; };
+		05B37D9D28E42CAD0089594B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B37D9C28E42CAD0089594B /* SearchViewController.swift */; };
 		05DD357328E183FE009252D5 /* HomeHeaderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD357128E183FE009252D5 /* HomeHeaderTVC.swift */; };
 		05DD357428E183FE009252D5 /* HomeHeaderTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DD357228E183FE009252D5 /* HomeHeaderTVC.xib */; };
 		05DD357828E188BF009252D5 /* HeaderCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD357628E188BF009252D5 /* HeaderCVCell.swift */; };
 		05DD357928E188BF009252D5 /* HeaderCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DD357728E188BF009252D5 /* HeaderCVCell.xib */; };
 		05DD357C28E19167009252D5 /* HomeFeedsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DD357A28E19167009252D5 /* HomeFeedsTVC.swift */; };
 		05DD357D28E19167009252D5 /* HomeFeedsTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05DD357B28E19167009252D5 /* HomeFeedsTVC.xib */; };
+		05DD358328E2E779009252D5 /* nguyen-tp-hai-rlxUEaW-TSo-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05DD357E28E2E778009252D5 /* nguyen-tp-hai-rlxUEaW-TSo-unsplash.jpg */; };
+		05DD358428E2E779009252D5 /* kateryna-hliznitsova-oyUeUE4K4pI-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05DD357F28E2E778009252D5 /* kateryna-hliznitsova-oyUeUE4K4pI-unsplash.jpg */; };
+		05DD358528E2E779009252D5 /* brooke-cagle-IRTmACvF4u8-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05DD358028E2E779009252D5 /* brooke-cagle-IRTmACvF4u8-unsplash.jpg */; };
+		05DD358628E2E779009252D5 /* kateryna-hliznitsova-C9uQcRbfGtc-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05DD358128E2E779009252D5 /* kateryna-hliznitsova-C9uQcRbfGtc-unsplash.jpg */; };
+		05DD358728E2E779009252D5 /* luiz-rogerio-nunes-TpKE0ADAImo-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 05DD358228E2E779009252D5 /* luiz-rogerio-nunes-TpKE0ADAImo-unsplash.jpg */; };
 		05F8F97228D4C52F0084B1AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F8F97128D4C52F0084B1AB /* AppDelegate.swift */; };
 		05F8F97428D4C52F0084B1AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F8F97328D4C52F0084B1AB /* SceneDelegate.swift */; };
 		05F8F97628D4C52F0084B1AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F8F97528D4C52F0084B1AB /* ViewController.swift */; };
@@ -23,12 +31,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05B37D9528E346C00089594B /* SearchTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTVC.swift; sourceTree = "<group>"; };
+		05B37D9628E346C00089594B /* SearchTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTVC.xib; sourceTree = "<group>"; };
+		05B37D9C28E42CAD0089594B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		05DD357128E183FE009252D5 /* HomeHeaderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderTVC.swift; sourceTree = "<group>"; };
 		05DD357228E183FE009252D5 /* HomeHeaderTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeHeaderTVC.xib; sourceTree = "<group>"; };
 		05DD357628E188BF009252D5 /* HeaderCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCVCell.swift; sourceTree = "<group>"; };
 		05DD357728E188BF009252D5 /* HeaderCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCVCell.xib; sourceTree = "<group>"; };
 		05DD357A28E19167009252D5 /* HomeFeedsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedsTVC.swift; sourceTree = "<group>"; };
 		05DD357B28E19167009252D5 /* HomeFeedsTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeFeedsTVC.xib; sourceTree = "<group>"; };
+		05DD357E28E2E778009252D5 /* nguyen-tp-hai-rlxUEaW-TSo-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nguyen-tp-hai-rlxUEaW-TSo-unsplash.jpg"; sourceTree = "<group>"; };
+		05DD357F28E2E778009252D5 /* kateryna-hliznitsova-oyUeUE4K4pI-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kateryna-hliznitsova-oyUeUE4K4pI-unsplash.jpg"; sourceTree = "<group>"; };
+		05DD358028E2E779009252D5 /* brooke-cagle-IRTmACvF4u8-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brooke-cagle-IRTmACvF4u8-unsplash.jpg"; sourceTree = "<group>"; };
+		05DD358128E2E779009252D5 /* kateryna-hliznitsova-C9uQcRbfGtc-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kateryna-hliznitsova-C9uQcRbfGtc-unsplash.jpg"; sourceTree = "<group>"; };
+		05DD358228E2E779009252D5 /* luiz-rogerio-nunes-TpKE0ADAImo-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "luiz-rogerio-nunes-TpKE0ADAImo-unsplash.jpg"; sourceTree = "<group>"; };
 		05F8F96E28D4C52F0084B1AB /* instagram clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instagram clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F8F97128D4C52F0084B1AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05F8F97328D4C52F0084B1AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +67,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05B37D9928E359A70089594B /* photos test */ = {
+			isa = PBXGroup;
+			children = (
+				05DD358028E2E779009252D5 /* brooke-cagle-IRTmACvF4u8-unsplash.jpg */,
+				05DD358128E2E779009252D5 /* kateryna-hliznitsova-C9uQcRbfGtc-unsplash.jpg */,
+				05DD357F28E2E778009252D5 /* kateryna-hliznitsova-oyUeUE4K4pI-unsplash.jpg */,
+				05DD358228E2E779009252D5 /* luiz-rogerio-nunes-TpKE0ADAImo-unsplash.jpg */,
+				05DD357E28E2E778009252D5 /* nguyen-tp-hai-rlxUEaW-TSo-unsplash.jpg */,
+			);
+			path = "photos test";
+			sourceTree = "<group>";
+		};
 		05DD356E28E18342009252D5 /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +104,8 @@
 				05DD357228E183FE009252D5 /* HomeHeaderTVC.xib */,
 				05DD357A28E19167009252D5 /* HomeFeedsTVC.swift */,
 				05DD357B28E19167009252D5 /* HomeFeedsTVC.xib */,
+				05B37D9528E346C00089594B /* SearchTVC.swift */,
+				05B37D9628E346C00089594B /* SearchTVC.xib */,
 			);
 			path = UITableViewCells;
 			sourceTree = "<group>";
@@ -131,6 +161,7 @@
 			children = (
 				05F8F97528D4C52F0084B1AB /* ViewController.swift */,
 				05F8F98928D4F0820084B1AB /* HomeViewController.swift */,
+				05B37D9C28E42CAD0089594B /* SearchViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -138,6 +169,7 @@
 		05F8F98728D4C57D0084B1AB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				05B37D9928E359A70089594B /* photos test */,
 				05F8F97A28D4C5310084B1AB /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -210,8 +242,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05DD358628E2E779009252D5 /* kateryna-hliznitsova-C9uQcRbfGtc-unsplash.jpg in Resources */,
+				05DD358528E2E779009252D5 /* brooke-cagle-IRTmACvF4u8-unsplash.jpg in Resources */,
+				05DD358328E2E779009252D5 /* nguyen-tp-hai-rlxUEaW-TSo-unsplash.jpg in Resources */,
+				05DD358728E2E779009252D5 /* luiz-rogerio-nunes-TpKE0ADAImo-unsplash.jpg in Resources */,
 				05F8F97E28D4C5310084B1AB /* LaunchScreen.storyboard in Resources */,
+				05B37D9828E346C00089594B /* SearchTVC.xib in Resources */,
 				05DD357428E183FE009252D5 /* HomeHeaderTVC.xib in Resources */,
+				05DD358428E2E779009252D5 /* kateryna-hliznitsova-oyUeUE4K4pI-unsplash.jpg in Resources */,
 				05DD357D28E19167009252D5 /* HomeFeedsTVC.xib in Resources */,
 				05F8F97B28D4C5310084B1AB /* Assets.xcassets in Resources */,
 				05F8F97928D4C52F0084B1AB /* Main.storyboard in Resources */,
@@ -229,8 +267,10 @@
 				05F8F97628D4C52F0084B1AB /* ViewController.swift in Sources */,
 				05DD357328E183FE009252D5 /* HomeHeaderTVC.swift in Sources */,
 				05DD357C28E19167009252D5 /* HomeFeedsTVC.swift in Sources */,
+				05B37D9D28E42CAD0089594B /* SearchViewController.swift in Sources */,
 				05F8F97228D4C52F0084B1AB /* AppDelegate.swift in Sources */,
 				05DD357828E188BF009252D5 /* HeaderCVCell.swift in Sources */,
+				05B37D9728E346C00089594B /* SearchTVC.swift in Sources */,
 				05F8F97428D4C52F0084B1AB /* SceneDelegate.swift in Sources */,
 				05F8F98A28D4F0820084B1AB /* HomeViewController.swift in Sources */,
 			);

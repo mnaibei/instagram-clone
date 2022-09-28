@@ -17,6 +17,12 @@ class HomeFeedsTVC: UITableViewCell {
     
     @IBOutlet weak var imageViewStock: UIImageView!
     
+   
+    @IBAction func userLikeButton(_ sender: Any) {
+        self.backgroundColor = .systemRed
+    }
+   
+    
     //lifecycle
     override func awakeFromNib() {
         super.awakeFromNib()

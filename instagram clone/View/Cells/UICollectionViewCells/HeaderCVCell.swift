@@ -21,6 +21,7 @@ class HeaderCVCell: UICollectionViewCell {
         imageViewStory.layer.cornerRadius = 30
         imageViewStory.layer.masksToBounds = true
         imageViewStory.backgroundColor = .systemPink
+        //imageViewStory.tintColor = .systemRed
     }
 
 }

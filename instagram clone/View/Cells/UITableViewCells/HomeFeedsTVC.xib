@@ -16,7 +16,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="330" height="411"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Xt-Bx-Xpc">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="brooke-cagle-IRTmACvF4u8-unsplash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3Xt-Bx-Xpc">
                         <rect key="frame" x="20" y="20" width="40" height="40"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="40" id="pkq-5L-m5W"/>
@@ -29,29 +29,32 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Khw-02-8bw">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nguyen-tp-hai-rlxUEaW-TSo-unsplash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Khw-02-8bw">
                         <rect key="frame" x="20" y="70" width="290" height="200"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="200" id="cQH-aO-Qyy"/>
                         </constraints>
                     </imageView>
-                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="7cp-LN-7ug">
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7cp-LN-7ug">
                         <rect key="frame" x="20" y="295" width="175" height="40"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWC-n6-BOn">
-                                <rect key="frame" x="0.0" y="0.0" width="53.666666666666664" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aes-Il-z7V">
+                                <rect key="frame" x="0.0" y="0.0" width="58.333333333333336" height="40"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system"/>
+                                <connections>
+                                    <action selector="userLikeButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="SYq-GK-et3"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aes-Il-z7V">
-                                <rect key="frame" x="60.666666666666671" y="0.0" width="53.666666666666671" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hcy-Xu-KlW">
+                                <rect key="frame" x="58.333333333333329" y="0.0" width="58.333333333333329" height="40"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="message" catalog="system"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXQ-Lb-FeY">
-                                <rect key="frame" x="121.33333333333336" y="0.0" width="53.666666666666671" height="40"/>
+                                <rect key="frame" x="116.66666666666664" y="0.0" width="58.333333333333329" height="40"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="paperplane" catalog="system"/>
@@ -86,8 +89,10 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="brooke-cagle-IRTmACvF4u8-unsplash.jpg" width="4480" height="6720"/>
         <image name="heart" catalog="system" width="128" height="107"/>
         <image name="message" catalog="system" width="128" height="116"/>
+        <image name="nguyen-tp-hai-rlxUEaW-TSo-unsplash.jpg" width="2805" height="3506"/>
         <image name="paperplane" catalog="system" width="128" height="119"/>
     </resources>
 </document>
